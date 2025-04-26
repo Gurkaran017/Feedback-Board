@@ -66,7 +66,7 @@ function FeedbackForm({ fetchFeedbacks }) {
 
   return (
     <form className="feedback-form" onSubmit={handleSubmit}>
-      <h2>Submit Feedback</h2>
+      <h2>Submit Your Feedback</h2>
       <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
       <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
       <textarea placeholder="Comment" value={comment} onChange={(e) => setComment(e.target.value)}></textarea>

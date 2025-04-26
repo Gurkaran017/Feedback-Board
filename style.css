@@ -34,7 +34,6 @@
   }
   
   .header h1::after {
-    content: '✨';
     margin-left: 10px;
   }
   
@@ -88,7 +87,7 @@
   }
   
   .feedback-form button {
-    background: #28a745;
+    background: #2855a7;
     color: white;
     padding: 10px;
     border: none;
@@ -98,7 +97,7 @@
   }
   
   .feedback-form button:hover {
-    background: #218838;
+    background: #1c3f68;
   }
   
   .message {
