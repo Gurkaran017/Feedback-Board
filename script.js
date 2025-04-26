@@ -1,6 +1,6 @@
 // Firebase
 const firebaseConfig = {
-  databaseURL: "https://feedback-board.firebaseio.com/",
+  databaseURL: "https://feedback-board-7dc5e-default-rtdb.firebaseio.com/",
 };
 firebase.initializeApp(firebaseConfig);
 const db = firebase.database().ref('feedbacks');
